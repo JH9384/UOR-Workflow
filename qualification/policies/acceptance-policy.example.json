@@ -1,0 +1,17 @@
+{
+  "schema": "uor.acceptance-policy.example.v1",
+  "description": "Public illustrative example only; no execution or release authorization",
+  "product_family": "application",
+  "requirements": {
+    "scenario_coverage": "all_declared",
+    "expected_observed_match": true,
+    "execution_exit_codes": [
+      0
+    ],
+    "artifact_integrity": "PASS",
+    "reproducibility": "PASS"
+  },
+  "execution_authorization": "SEPARATE_APPROVAL_REQUIRED",
+  "technical_acceptance": "NOT_ASSESSED",
+  "release_authorization": "DEFER"
+}
